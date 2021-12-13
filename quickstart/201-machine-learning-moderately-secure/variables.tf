@@ -1,4 +1,4 @@
-variable "name" {
+alvariable "name" {
   type        = string
   description = "Name of the deployment"
 }
@@ -12,7 +12,7 @@ variable "environment" {
 variable "location" {
   type        = string
   description = "Location of the resources"
-  default     = "East US"
+  default     = "Central US"
 }
 
 variable "vnet_address_space" {
